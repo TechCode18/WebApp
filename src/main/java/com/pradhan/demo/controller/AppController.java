@@ -10,4 +10,9 @@ public class AppController {
 	public String processReq() {
 		return "Request processed";
 	}
+	
+	@GetMapping("/deploy")
+	public String processRequest() {
+		return "Successfully deployed on jenkins";
+	}
 }
